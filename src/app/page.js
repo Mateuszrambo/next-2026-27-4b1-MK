@@ -12,9 +12,10 @@ export default function HomePage() {
       <Counter />
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mt-4">
-        <Card title="Projekt Next.js">Strona zrealizowana z Tailwind CSS</Card>
+        <Card title={<span className="highlight">"Projekt Next.js"</span>}>Strona zrealizowana z Tailwind CSS</Card>
         <Card title="Interaktywność">Używamy stanu useState</Card>
       </div>
     </main>
   );
 }
+

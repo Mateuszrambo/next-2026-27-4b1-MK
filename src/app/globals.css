@@ -26,7 +26,6 @@ body {
 }
 
 .highlight {
-  background-color: #fff59d;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
+  color: red;
+  font-weight: bold;
 }
