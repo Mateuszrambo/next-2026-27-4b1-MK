@@ -1,5 +1,10 @@
 export async function GET() {
-  return Response.json([{ id: 1, message: 'Cześć!' }]);
+  const data = [
+    { id: 1, message: 'Cześć!' },
+    { id: 2, message: 'Miłej nauki Next.js!' },
+  ];
+
+  return Response.json(data);
 }
 
 export async function POST(request) {
